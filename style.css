@@ -1,0 +1,127 @@
+.card
+{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 290px;
+    margin-right: 100px; */
+    margin-top: 150px;
+}
+
+.class1
+{
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid red;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 3px;
+    padding: 10px;
+    width: 180px;
+    height: 220px;
+}
+.class2
+{
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid red;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 3px;
+    padding: 10px;
+    width: 180px;
+    height: 220px;
+}
+.class3
+{
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid red;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 3px;
+    padding: 10px;
+    width: 180px;
+    height: 220px;
+}
+.container1
+{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.card2
+{
+    /* position: absolute; */
+    width: 900px;
+    height: 50px;
+    margin-top: 100px;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+.class4
+{
+    position: absolute;
+    display: block;
+    justify-content: center;
+    border: 1px solid red;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 3px;
+    padding: 10px;
+    width: 220px;
+    height: 220px;
+}
+.notshow
+{
+    filter: blur(4px);
+}
+.pop
+{
+    background-color: white; 
+    width: 260px; 
+    height: 160px; 
+    position: absolute; 
+    top: 300px; 
+    left: 600px;
+    border: 1px solid red;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 5px;
+}
+
+[class*="col-"]
+{
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .card
+    {
+        float: none;
+        margin: 20px;  
+    }
+    .class1
+    {
+        margin-bottom: 20px;
+    }
+    .class2
+    {
+        margin: 20px;
+    }
+    .class3
+    {
+        margin: 20px;
+    }
+    .container1
+    {
+        width: 100%;
+    }
+    .card2
+    {
+        width: 100%;
+        display: block;
+    }
+    .class4 hr{
+        display: none;
+    }
+  }
